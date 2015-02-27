@@ -1,0 +1,46 @@
+%%This is a very basic article template.
+%%There is just one section and two subsections.
+\documentclass{article}
+\usepackage{ucs}
+\usepackage[utf8]{inputenc}
+\usepackage[english, russian]{babel}
+\title{Использование GPIO на Cubieboard.}
+\date{}
+\author{}
+
+\begin{document}
+\maketitle
+
+
+\section{Что такое GPIO}
+
+GPIO(General-purpose input/output) - это ряд специальных контактов общего
+назначения, пользователь может определить для каждого из них является ли он
+входом, либо выходом. 
+\newline
+По умолчанию назначения не определены.
+\newline
+Возможности GPIO:\cite{wiki:gpio}
+\begin{enumerate}
+  \item{может быть сконфигурировани для ввода или вывода}
+  \item{GPIO контакты могут быть отключены}
+  \item{на выходе может быть или 1 или 0}
+  \item{можно изменять выходные значения}
+  \item{часто можно использовать систему прерываний для GPIO} 
+\end{enumerate}
+
+
+ 
+\section{Особенности GPIO в Cubieboard}
+
+
+\section{Использование GPIO в ОС Linux}
+
+More plain text.
+
+\section{Использование прерываний GPIO}
+
+\bibliographystyle{utf8gost705u}
+\bibliography{biblio}
+
+\end{document} 

@@ -7,15 +7,25 @@
 \ifx\undefined\BibAnnote\long\def\BibAnnote#1{(#1)}\else\fi
 \ifx\undefined\BibEmph\def\BibEmph#1{\emph{#1}}\else\fi
 
-\bibitem{wiki:gpio}
+\bibitem{wiki}
 \selectlanguageifdefined{russian}
-General-purpose input/output [Электронный ресурс] :
-  Материал из Википедии — свободной
-  энциклопедии : Версия 630541094, сохранённая в
-  14:14 UTC 23 февраля 2015 / Авторы Википедии //
-  Википедия, свободная энциклопедия. —
-  Электрон. дан. — Сан-Франциско: Фонд
-  Викимедиа, 2015. — Режим доступа:
-  \url{http://en.wikipedia.org/w/index.php?title=General-purpose_input/output&oldid=630541094}.
+Wikipedia. General-purpose input/output --- Wikipedia{,} The Free Encyclopedia.
+\newblock 2014.
+\newblock [Online; accessed 7-March-2015]. URL:
+  \url{http://en.wikipedia.org/w/index.php?title=General-purpose\_input/output&oldid=630541094}.
+
+\bibitem{hub}
+\selectlanguageifdefined{russian}
+Cubian. GPIO Introduction.
+\newblock 2014.
+\newblock [Online; accessed 20-Mar-2014]. URL:
+  \url{https://github.com/cubieplayer/Cubian/wiki/GPIO-Introduction}.
+
+\bibitem{habr}
+\selectlanguageifdefined{russian}
+scg. Linux: кнопки, светодиоды и GPIO.
+\newblock 2014.
+\newblock [Online; accessed 9-сентября-2014]. URL:
+  \url{http://habrahabr.ru/post/236251/}.
 
 \end{thebibliography}
